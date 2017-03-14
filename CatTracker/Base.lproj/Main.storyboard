@@ -16,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MEA-ai-tKb">
@@ -51,8 +51,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="catNameLabel" destination="QbB-4u-Eyj" id="zPH-sK-wAP"/>
-                        <outlet property="nameTextField" destination="YEZ-0n-yPh" id="gFF-4h-VVM"/>
+                        <outlet property="catNameLabel" destination="YEZ-0n-yPh" id="ecd-vY-Sj9"/>
+                        <outlet property="nameTextField" destination="QbB-4u-Eyj" id="EYv-Qk-qo3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
