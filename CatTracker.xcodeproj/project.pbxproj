@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		989677311E71618D000AA2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989677301E71618D000AA2C8 /* AppDelegate.swift */; };
-		989677331E71618D000AA2C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989677321E71618D000AA2C8 /* ViewController.swift */; };
+		989677331E71618D000AA2C8 /* CritterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989677321E71618D000AA2C8 /* CritterViewController.swift */; };
 		989677361E71618D000AA2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989677341E71618D000AA2C8 /* Main.storyboard */; };
 		989677381E71618D000AA2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989677371E71618D000AA2C8 /* Assets.xcassets */; };
 		9896773B1E71618D000AA2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989677391E71618D000AA2C8 /* LaunchScreen.storyboard */; };
 		989677461E71618E000AA2C8 /* CatTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989677451E71618E000AA2C8 /* CatTrackerTests.swift */; };
+		98DF58201E8417A0002E31B6 /* Critter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF581F1E8417A0002E31B6 /* Critter.swift */; };
+		98DF58221E841AE3002E31B6 /* CritterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF58211E841AE3002E31B6 /* CritterTableViewCell.swift */; };
+		98DF58241E841E09002E31B6 /* CritterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF58231E841E09002E31B6 /* CritterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,7 @@
 /* Begin PBXFileReference section */
 		9896772D1E71618D000AA2C8 /* CatTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		989677301E71618D000AA2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		989677321E71618D000AA2C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		989677321E71618D000AA2C8 /* CritterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterViewController.swift; sourceTree = "<group>"; };
 		989677351E71618D000AA2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		989677371E71618D000AA2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9896773A1E71618D000AA2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		989677411E71618E000AA2C8 /* CatTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		989677451E71618E000AA2C8 /* CatTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTrackerTests.swift; sourceTree = "<group>"; };
 		989677471E71618E000AA2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DF581F1E8417A0002E31B6 /* Critter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Critter.swift; sourceTree = "<group>"; };
+		98DF58211E841AE3002E31B6 /* CritterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CritterTableViewCell.swift; sourceTree = "<group>"; };
+		98DF58231E841E09002E31B6 /* CritterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CritterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				989677301E71618D000AA2C8 /* AppDelegate.swift */,
-				989677321E71618D000AA2C8 /* ViewController.swift */,
+				989677321E71618D000AA2C8 /* CritterViewController.swift */,
+				98DF581F1E8417A0002E31B6 /* Critter.swift */,
+				98DF58211E841AE3002E31B6 /* CritterTableViewCell.swift */,
+				98DF58231E841E09002E31B6 /* CritterTableViewController.swift */,
 				989677341E71618D000AA2C8 /* Main.storyboard */,
 				989677371E71618D000AA2C8 /* Assets.xcassets */,
 				989677391E71618D000AA2C8 /* LaunchScreen.storyboard */,
@@ -199,7 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989677331E71618D000AA2C8 /* ViewController.swift in Sources */,
+				989677331E71618D000AA2C8 /* CritterViewController.swift in Sources */,
+				98DF58221E841AE3002E31B6 /* CritterTableViewCell.swift in Sources */,
+				98DF58241E841E09002E31B6 /* CritterTableViewController.swift in Sources */,
+				98DF58201E8417A0002E31B6 /* Critter.swift in Sources */,
 				989677311E71618D000AA2C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +418,7 @@
 				9896774C1E71618E000AA2C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9896774D1E71618E000AA2C8 /* Build configuration list for PBXNativeTarget "CatTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +427,7 @@
 				9896774F1E71618E000AA2C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
